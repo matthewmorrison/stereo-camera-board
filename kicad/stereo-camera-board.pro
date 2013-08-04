@@ -1,7 +1,5 @@
-update=Tue 30 Jul 2013 11:17:05 PM PDT
-last_client=eeschema
-[general]
-version=1
+update=Sun 04 Aug 2013 07:32:14 AM PDT
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -12,4 +10,6 @@ RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=stereo-camera-board-cache
-LibName2=contrib_symbols_dl1eic/Symbols_ICs-Opto_RevB_29Dez2012
+LibName2=stereo-camera-board
+[general]
+version=1

@@ -567,6 +567,17 @@ F 3 "" H 1706 5978 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L JP_JP1Q NOFSYNC
+U 1 1 51F960ED
+P 10832 3674
+F 0 "NOFSYNC" V 10768 3546 44  0000 L BNN
+F 1 "" H 10832 3674 60  0001 C CNN
+F 2 "" H 10832 3674 60  0001 C CNN
+F 3 "" H 10832 3674 60  0001 C CNN
+	1    10832 3674
+	1    0    0    -1  
+$EndComp
+$Comp
 L P+_+3V3 +3V3
 U 1 1 51F960ED
 P 2128 1114
@@ -1502,6 +1513,7 @@ Wire Wire Line
 	10960 5978 10896 5978
 Wire Wire Line
 	1728 3098 1920 3098
+Connection ~ 10832 3994
 Wire Wire Line
 	8336 4442 8336 4506
 Wire Wire Line
@@ -1514,6 +1526,8 @@ Wire Wire Line
 	11152 3994 11152 5146
 Wire Wire Line
 	10832 3994 11152 3994
+Wire Wire Line
+	10832 3866 10832 4122
 Connection ~ 10256 6490
 Wire Wire Line
 	10256 6298 10256 6682
@@ -2016,6 +2030,8 @@ Wire Wire Line
 Wire Wire Line
 	5776 2138 5904 2138
 Wire Wire Line
+	7312 2074 7312 3418
+Wire Wire Line
 	6672 2074 7312 2074
 Wire Wire Line
 	5904 4058 7952 4058
@@ -2030,6 +2046,8 @@ Wire Wire Line
 	7312 3930 8464 3930
 Wire Wire Line
 	8464 3930 8464 4506
+Wire Wire Line
+	7312 2906 7312 3930
 Connection ~ 10256 6874
 Connection ~ 10064 6874
 Connection ~ 10384 6874
@@ -2358,9 +2376,4 @@ Wire Wire Line
 Connection ~ 7184 5722
 Wire Wire Line
 	4522 4634 4394 4634
-Wire Wire Line
-	10832 3482 10832 4122
-Connection ~ 10832 3994
-Wire Wire Line
-	7312 2074 7312 3930
 $EndSCHEMATC
