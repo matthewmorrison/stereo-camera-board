@@ -1,4 +1,6 @@
 EESchema-LIBRARY Version 2.331/07/2013-15:48:20
+#encoding utf-8
+#
 # Converted with eagle2kicad.ulp Version 1.1
 # Device count = 2
 #
@@ -316,89 +318,6 @@ X 1 1 -100 -100 100 R 28 28 1 1 P
 X 2 2 -100 -50 100 R 28 28 1 1 P 
 X 3 3 -100 0 100 R 28 28 1 1 P 
 X 4 4 -100 50 100 R 28 28 1 1 P 
-ENDDRAW
-ENDDEF
-# Device count = 4
-#
-# DEVSET Name: LED
-# Dev Prefix: LD
-# Gate count = 1
-#
-DEF RED_LED LD 0 1 N N 1 L N
-# Gate Name: G$1
-# Symbol Name: LED
-F0 "RED_LED" 5 -70 50 V V L B
-F1 "PARTNUM" -10 6 50 V V L B
-DRAW
-P 6 1 1 0 -67 -42 -59 -25 -59 -25 -50 -34 -50 -34 -67 -42 F
-P 6 1 1 0 -64 -64 -57 -46 -57 -46 -46 -57 -46 -57 -64 -64 F
-P 2 1 0 0 25 0 0 -50 N
-P 2 1 0 0 0 -50 -25 0 N
-P 2 1 0 0 25 -50 0 -50 N
-P 2 1 0 0 0 -50 -25 -50 N
-P 2 1 0 0 25 0 -25 0 N
-P 2 1 0 0 -39 -14 -67 -42 N
-P 2 1 0 0 -37 -37 -64 -64 N
-X A + 0 50 100 D 28 28 1 1 P 
-X C - 0 -100 100 U 28 28 1 1 P 
-ENDDRAW
-ENDDEF
-DEF BLUE_LED LD 0 1 N N 1 L N
-# Gate Name: G$1
-# Symbol Name: LED
-F0 "BLUE_LED" 5 -70 50 V V L B
-F1 "PARTNUM" -10 6 50 V V L B
-DRAW
-P 6 1 1 0 -67 -42 -59 -25 -59 -25 -50 -34 -50 -34 -67 -42 F
-P 6 1 1 0 -64 -64 -57 -46 -57 -46 -46 -57 -46 -57 -64 -64 F
-P 2 1 0 0 25 0 0 -50 N
-P 2 1 0 0 0 -50 -25 0 N
-P 2 1 0 0 25 -50 0 -50 N
-P 2 1 0 0 0 -50 -25 -50 N
-P 2 1 0 0 25 0 -25 0 N
-P 2 1 0 0 -39 -14 -67 -42 N
-P 2 1 0 0 -37 -37 -64 -64 N
-X A + 0 50 100 D 28 28 1 1 P 
-X C - 0 -100 100 U 28 28 1 1 P 
-ENDDRAW
-ENDDEF
-DEF GREEN_LED LD 0 1 N N 1 L N
-# Gate Name: G$1
-# Symbol Name: LED
-F0 "GREEN_LED" 5 -70 50 V V L B
-F1 "PARTNUM" -10 6 50 V V L B
-DRAW
-P 6 1 1 0 -67 -42 -59 -25 -59 -25 -50 -34 -50 -34 -67 -42 F
-P 6 1 1 0 -64 -64 -57 -46 -57 -46 -46 -57 -46 -57 -64 -64 F
-P 2 1 0 0 25 0 0 -50 N
-P 2 1 0 0 0 -50 -25 0 N
-P 2 1 0 0 25 -50 0 -50 N
-P 2 1 0 0 0 -50 -25 -50 N
-P 2 1 0 0 25 0 -25 0 N
-P 2 1 0 0 -39 -14 -67 -42 N
-P 2 1 0 0 -37 -37 -64 -64 N
-X A + 0 50 100 D 28 28 1 1 P 
-X C - 0 -100 100 U 28 28 1 1 P 
-ENDDRAW
-ENDDEF
-DEF LD_LED LD 0 1 N N 1 L N
-# Gate Name: G$1
-# Symbol Name: LED
-F0 "LD" 5 -70 50 V V L B
-F1 "LED" -10 6 50 V V L B
-F2 "dan-led-1206_POL" 0 150 50 H I C C
-DRAW
-P 6 1 1 0 -67 -42 -59 -25 -59 -25 -50 -34 -50 -34 -67 -42 F
-P 6 1 1 0 -64 -64 -57 -46 -57 -46 -46 -57 -46 -57 -64 -64 F
-P 2 1 0 0 25 0 0 -50 N
-P 2 1 0 0 0 -50 -25 0 N
-P 2 1 0 0 25 -50 0 -50 N
-P 2 1 0 0 0 -50 -25 -50 N
-P 2 1 0 0 25 0 -25 0 N
-P 2 1 0 0 -39 -14 -67 -42 N
-P 2 1 0 0 -37 -37 -64 -64 N
-X A + 0 50 100 D 28 28 1 1 P 
-X C - 0 -100 100 U 28 28 1 1 P 
 ENDDRAW
 ENDDEF
 # Device count = 1
@@ -853,6 +772,7 @@ DEF JP_PINHD-2X3 JP 0 1 N Y 1 L N
 F0 "JP" -160 144 50 H V L B
 F1 "PINHD-2X3" -160 -192 50 H V L B
 F2 "pinhead-2X03" 0 150 50 H I C C
+F3 "" 0 150 50 H I C C
 DRAW
 P 2 1 0 0 -125 -100 125 -100 N
 P 2 1 0 0 125 -100 125 100 N
@@ -864,41 +784,6 @@ X 3 3 -150 0 100 R 28 28 1 1 P I
 X 4 4 150 0 100 L 28 28 1 1 P I
 X 5 5 -150 -50 100 R 28 28 1 1 P I
 X 6 6 150 -50 100 L 28 28 1 1 P I
-ENDDRAW
-ENDDEF
-# Device count = 1
-#
-# DEVSET Name: VCC
-# Dev Prefix: P+
-# Gate count = 1
-#
-DEF P+_VCC P+ 0 1 N N 1 L N
-# Gate Name: VCC
-# Symbol Name: VCC
-F0 "P+" 0 0 50 V V L B
-F1 "VCC" -86 -64 50 V V L B
-DRAW
-P 2 1 0 0 25 -37 0 0 N
-P 2 1 0 0 0 0 -25 -37 N
-X VCC ~ 0 -50 100 U 28 28 1 1 w 
-ENDDRAW
-ENDDEF
-# Device count = 1
-#
-# DEVSET Name: GND
-# Dev Prefix: SUPPLY
-# Gate count = 1
-#
-DEF SUPPLY_GND SUPPLY 0 1 N N 1 L N
-# Gate Name: GND
-# Symbol Name: GND
-F0 "SUPPLY" 0 0 50 H V L B
-F1 "GND" -48 -80 50 H V L B
-DRAW
-P 2 1 0 0 -25 0 25 0 N
-P 2 1 0 0 25 0 0 -25 N
-P 2 1 0 0 0 -25 -25 0 N
-X GND ~ 0 50 100 D 28 28 1 1 w 
 ENDDRAW
 ENDDEF
 # Device count = 1

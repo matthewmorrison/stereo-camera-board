@@ -1,0 +1,64 @@
+EESchema-LIBRARY Version 2.3  Date: 8/16/2013 8:20:51 PM
+#encoding utf-8
+#
+# +2.5V
+#
+DEF +2.5V P+ 0 1 N N 1 L N
+F0 "P+" 0 0 50 V I L BNN
+F1 "+2.5V" 50 0 30 V V L BNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 1 0 0  0 0  0 25 N
+P 2 1 0 0  0 25  -19 -7 N
+P 2 1 0 0  19 -7  0 25 N
+X +2.5V ~ 0 -50 50 U 28 28 1 1 w
+ENDDRAW
+ENDDEF
+#
+# +3.3V
+#
+DEF +3.3V P+ 0 1 N N 1 L N
+F0 "P+" 0 0 50 V I L BNN
+F1 "+3.3V" 50 0 30 V V L BNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 1 0 0  0 0  0 25 N
+P 2 1 0 0  0 25  -19 -7 N
+P 2 1 0 0  19 -7  0 25 N
+X +3.3V ~ 0 -50 50 U 28 28 1 1 w
+ENDDRAW
+ENDDEF
+#
+# +5V
+#
+DEF +5V P+ 0 1 N N 1 L N
+F0 "P+" 0 0 50 V I L BNN
+F1 "+5V" 50 0 30 V V L BNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 1 0 0  0 0  0 25 N
+P 2 1 0 0  0 25  -19 -7 N
+P 2 1 0 0  19 -7  0 25 N
+X +5V ~ 0 -50 50 U 28 28 1 1 w
+ENDDRAW
+ENDDEF
+#
+# GND
+#
+DEF GND SUPPLY 0 1 N N 1 L N
+F0 "SUPPLY" 0 0 30 H I L BNN
+F1 "GND" -48 -80 30 H V L BNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 1 0 0  -25 0  25 0 N
+P 2 1 0 0  0 -25  -25 0 N
+P 2 1 0 0  25 0  0 -25 N
+X GND ~ 0 50 50 D 28 28 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

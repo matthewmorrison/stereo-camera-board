@@ -1,5 +1,7 @@
-update=8/7/2013 6:18:43 AM
-last_client=kicad
+update=8/16/2013 10:09:49 PM
+last_client=eeschema
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -9,7 +11,6 @@ RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
-LibName1=stereo-camera-board-cache
-LibName2=stereo-camera-board
-[general]
-version=1
+LibName1=stereo-camera-board
+LibName2=power
+LibName3=led
