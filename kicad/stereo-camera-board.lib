@@ -424,30 +424,6 @@ X - - 0 -100 100 U 28 28 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DEVSET Name: FERRITE
-# Dev Prefix: FB
-# Gate count = 1
-#
-DEF FB_FERRITE FB 0 1 N N 1 L N
-# Gate Name: G$1
-# Symbol Name: FERRITE
-F0 "FB" 70 38 50 H V R T
-F1 "FERRITE" -6 38 50 H V R T
-F2 "dan-rcl-0402" 0 150 50 H I C C
-DRAW
-P 2 1 0 0 0 19 9 0 N
-P 2 1 0 0 9 0 19 -19 N
-P 2 1 0 0 19 -19 50 -19 N
-P 2 1 0 0 50 -19 39 0 N
-P 2 1 0 0 39 0 29 19 N
-P 2 1 0 0 29 19 0 19 N
-P 2 1 0 0 0 0 9 0 N
-P 2 1 0 0 50 0 39 0 N
-X 1 1 -50 0 100 R 28 28 1 1 P 
-X 2 2 100 0 100 L 28 28 1 1 P 
-ENDDRAW
-ENDDEF
-#
 # DEVSET Name: R
 # Dev Prefix: R
 # Gate count = 1
