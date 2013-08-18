@@ -3,6 +3,7 @@ LIBS:stereo-camera-board
 LIBS:power
 LIBS:led
 LIBS:custom
+LIBS:stereo-camera-board-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -2385,10 +2386,10 @@ F 3 "" H 7900 3350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_C C?
+L C_C C32
 U 1 1 520FE1CE
 P 7350 3200
-F 0 "C?" V 7350 3200 30  0000 C CNN
+F 0 "C32" V 7350 3200 30  0000 C CNN
 F 1 "2.2nf" V 7350 3100 30  0000 C CNN
 F 2 "" H 7350 3200 30  0001 C CNN
 F 3 "" H 7350 3200 30  0001 C CNN
