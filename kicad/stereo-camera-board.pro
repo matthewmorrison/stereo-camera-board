@@ -1,4 +1,4 @@
-update=8/17/2013 7:55:26 AM
+update=8/18/2013 5:23:43 PM
 last_client=eeschema
 [general]
 version=1
@@ -15,3 +15,4 @@ LibName1=stereo-camera-board
 LibName2=power
 LibName3=led
 LibName4=custom
+LibName5=inductor-coilcraft
