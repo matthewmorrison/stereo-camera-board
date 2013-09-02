@@ -391,7 +391,7 @@ DEF C_C C 0 1 N N 1 L N
 # Symbol Name: C
 F0 "C" -6 6 50 V V L B
 F1 "C" 9 -70 50 V V L B
-F2 "0603" 0 150 50 H I C C
+F2 "0402" 0 150 50 H I C C
 DRAW
 P 2 1 0 0 0 0 0 -9 N
 P 2 1 0 0 0 -50 0 -39 N
@@ -411,7 +411,7 @@ DEF C_CPOL C 0 1 N N 1 L N
 # Symbol Name: CPOL
 F0 "C" -6 6 50 V V L B
 F1 "CPOL" 9 -70 50 V V L B
-F2 "1206_POL" 0 150 50 H I C C
+F2 "0402_POL" 0 150 50 H I C C
 DRAW
 P 2 1 0 0 -29 -17 29 -17 N
 P 2 1 0 0 29 -17 29 0 N
@@ -433,7 +433,7 @@ DEF R_R R 0 1 N N 1 L N
 # Symbol Name: R
 F0 "R" 70 12 50 H V L B
 F1 "R" -70 12 50 H V L B
-F2 "0603" 0 150 50 H I C C
+F2 "0402" 0 150 50 H I C C
 DRAW
 P 2 1 0 0 -50 0 -42 19 N
 P 2 1 0 0 -42 19 -29 -19 N

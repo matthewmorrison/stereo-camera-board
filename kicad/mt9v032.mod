@@ -1,0 +1,352 @@
+PCBNEW-LibModule-V1  9/2/2013 9:46:11 AM
+# encoding utf-8
+Units mm
+$INDEX
+mt9v032
+$EndINDEX
+$MODULE mt9v032
+Po 0 0 0 15 5224C029 00000000 ~~
+Li mt9v032
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.54 1.5 1.5 0 0.15 N V 21 N "mt9v032"
+T1 0 0 1.5 1.5 0 0.15 N I 21 N "SMD"
+$PAD
+Sh "1" R 0.4 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.4 -4.715
+$EndPAD
+$PAD
+Sh "2" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.2 -5.215
+$EndPAD
+$PAD
+Sh "3" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 -5.215
+$EndPAD
+$PAD
+Sh "4" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.8 -5.215
+$EndPAD
+$PAD
+Sh "5" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.6 -5.215
+$EndPAD
+$PAD
+Sh "6" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.4 -5.215
+$EndPAD
+$PAD
+Sh "7" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.215 -4.4
+$EndPAD
+$PAD
+Sh "8" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.215 -3.6
+$EndPAD
+$PAD
+Sh "9" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.215 -2.8
+$EndPAD
+$PAD
+Sh "10" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.215 -2
+$EndPAD
+$PAD
+Sh "11" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.215 -1.2
+$EndPAD
+$PAD
+Sh "12" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.215 -0.4
+$EndPAD
+$PAD
+Sh "13" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.215 0.4
+$EndPAD
+$PAD
+Sh "14" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.215 1.2
+$EndPAD
+$PAD
+Sh "15" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.215 2
+$EndPAD
+$PAD
+Sh "16" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.215 2.8
+$EndPAD
+$PAD
+Sh "17" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.215 3.6
+$EndPAD
+$PAD
+Sh "18" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.215 4.4
+$EndPAD
+$PAD
+Sh "19" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.4 5.215
+$EndPAD
+$PAD
+Sh "20" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.6 5.215
+$EndPAD
+$PAD
+Sh "21" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.8 5.215
+$EndPAD
+$PAD
+Sh "22" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 5.215
+$EndPAD
+$PAD
+Sh "23" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.2 5.215
+$EndPAD
+$PAD
+Sh "24" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.4 5.215
+$EndPAD
+$PAD
+Sh "25" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 5.215
+$EndPAD
+$PAD
+Sh "26" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 5.215
+$EndPAD
+$PAD
+Sh "27" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 5.215
+$EndPAD
+$PAD
+Sh "28" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.8 5.215
+$EndPAD
+$PAD
+Sh "29" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.6 5.215
+$EndPAD
+$PAD
+Sh "30" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.4 5.215
+$EndPAD
+$PAD
+Sh "31" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.215 4.4
+$EndPAD
+$PAD
+Sh "32" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.215 3.6
+$EndPAD
+$PAD
+Sh "33" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.215 2.8
+$EndPAD
+$PAD
+Sh "34" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.215 2
+$EndPAD
+$PAD
+Sh "35" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.215 1.2
+$EndPAD
+$PAD
+Sh "36" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.215 0.4
+$EndPAD
+$PAD
+Sh "37" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.215 -0.4
+$EndPAD
+$PAD
+Sh "38" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.215 -1.2
+$EndPAD
+$PAD
+Sh "39" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.215 -2
+$EndPAD
+$PAD
+Sh "40" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.215 -2.8
+$EndPAD
+$PAD
+Sh "41" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.215 -3.6
+$EndPAD
+$PAD
+Sh "42" R 0.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.215 -4.4
+$EndPAD
+$PAD
+Sh "43" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.4 -5.215
+$EndPAD
+$PAD
+Sh "44" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.6 -5.215
+$EndPAD
+$PAD
+Sh "45" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.8 -5.215
+$EndPAD
+$PAD
+Sh "46" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 -5.215
+$EndPAD
+$PAD
+Sh "47" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 -5.215
+$EndPAD
+$PAD
+Sh "48" R 0.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 -5.215
+$EndPAD
+$EndMODULE mt9v032
+$EndLIBRARY
