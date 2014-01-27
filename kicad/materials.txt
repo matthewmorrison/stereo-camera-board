@@ -1,0 +1,2 @@
+MCP1700T-2502E/TT     $0.44/1     SOT.mod->SOT-23-3
+ZLDO1117G33TA         $0.54/1     SOT.mod->SOT-223-3
