@@ -5,6 +5,13 @@ $INDEX
 do-214ac
 $EndINDEX
 $MODULE do-214ac
+Po 0 0 0 15 5224C029 00000000 ~~
+Li do-214ac
+Sc 0
+AR
+Op 0 0 0
+T0 0 -2.54 1.5 1.5 0 0.15 N V 21 N "do-214ac"
+T1 0 0 1.5 1.5 0 0.15 N I 21 N "SMD"
 $PAD
 Sh "1" R 2.65 1.75 0 0 0
 Dr 0 0 0
