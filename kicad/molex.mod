@@ -1,0 +1,93 @@
+PCBNEW-LibModule-V1 9/2/2013 9:46:11 AM
+# encoding utf-8
+Units mm
+$INDEX
+ps-47642-001
+$EndINDEX
+$MODULE ps-47642-001
+Po 0 0 0 15 5224C029 00000000 ~~
+Li sot-23-3
+Sc 0
+AR
+Op 0 0 0
+T0 0 -2.54 1.5 1.5 0 0.15 N V 21 N "ps-47642-001"
+T1 0 0 1.5 1.5 0 0.15 N I 21 N "USB CONN"
+$PAD
+Sh "1" R 1.25 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.475 -1.3
+$EndPAD
+$PAD
+Sh "2" R 1.25 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.475 -.65
+$EndPAD
+$PAD
+Sh "3" R 1.25 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.475 0
+$EndPAD
+$PAD
+Sh "4" R 1.25 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.475 .65
+$EndPAD
+$PAD
+Sh "5" R 1.25 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.475 1.3
+$EndPAD
+$PAD
+Sh "" R 2.5 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.95 -5.15
+$EndPAD
+$PAD
+Sh "" R 2.5 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.15 -5.15
+$EndPAD
+$PAD
+Sh "" R 1.5 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8.35 -2.2
+$EndPAD
+$PAD
+Sh "" R 1.5 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8.35 2.2
+$EndPAD
+$PAD
+Sh "" R 2.5 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.15 5.15
+$EndPAD
+$PAD
+Sh "" R 2.5 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.95 5.15
+$EndPAD
+$EndMODULE ps-47642-001
+$EndLIBRARY
