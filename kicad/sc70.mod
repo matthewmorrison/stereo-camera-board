@@ -54,3 +54,5 @@ At SMD N 00888000
 Ne 0 ""
 Po -.65 -0.95
 $EndPAD
+$EndMODULE sc70-6
+$EndLIBRARY
