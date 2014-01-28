@@ -1,4 +1,4 @@
-update=9/1/2013 11:14:09 PM
+update=1/25/2014 10:10:42 PM
 last_client=cvpcb
 [general]
 version=1
@@ -17,16 +17,30 @@ LibName3=led
 LibName4=custom
 LibName5=inductor-coilcraft
 [pcbnew]
+version=1
+LastNetListRead=
+UseCmpFile=1
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=0.35
+PadSizeV=0.85
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1.5
+ModuleTextSizeH=1.5
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.2
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.09999999999999999
 [pcbnew/libraries]
-LibName1=inductances
-LibName2=inductor-coilcraft
-LibName3=C:/Users/Matt/kicad-20130802-r4262/library/converted/ap_rc_0402
-LibName4=C:/Users/Matt/kicad-20130802-r4262/library/converted/led
-LibName5=C:/Users/Matt/kicad-20130802-r4262/library/converted/led_rgb
-LibName6=C:/Users/Matt/kicad-20130802-r4262/library/converted/resistor-bourns
-LibName7=C:/Users/Matt/kicad-20130802-r4262/library/converted/resistor-ruf
-LibName8=C:/Users/Matt/kicad-20130802-r4262/library/converted/murata-resonators
-LibName9=C:/Users/Matt/kicad-20130802-r4262/library/converted/ipc-7351-resistor
+LibName1=mpu-9150
+LibName2=inductances
+LibName3=inductor-coilcraft
+LibName4=mt9v032
+LibName5=0603
 LibDir=
 [cvpcb]
 version=1
