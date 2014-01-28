@@ -1,4 +1,4 @@
-update=1/25/2014 10:10:42 PM
+update=1/27/2014 8:48:45 PM
 last_client=cvpcb
 [general]
 version=1
@@ -20,10 +20,10 @@ LibName5=inductor-coilcraft
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0
-PadDrillOvalY=0
-PadSizeH=0.35
-PadSizeV=0.85
+PadDrill=0.85
+PadDrillOvalY=0.85
+PadSizeH=1.45
+PadSizeV=1.45
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
@@ -37,10 +37,14 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.09999999999999999
 [pcbnew/libraries]
 LibName1=mpu-9150
-LibName2=inductances
-LibName3=inductor-coilcraft
-LibName4=mt9v032
-LibName5=0603
+LibName2=mt9v032
+LibName3=0603
+LibName4=do
+LibName5=molex
+LibName6=sc70
+LibName7=sot
+LibName8=smd-1206
+LibName9=CMT821
 LibDir=
 [cvpcb]
 version=1

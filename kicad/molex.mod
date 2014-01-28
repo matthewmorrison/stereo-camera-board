@@ -1,14 +1,121 @@
-PCBNEW-LibModule-V1 9/2/2013 9:46:11 AM
+PCBNEW-LibModule-V1  1/27/2014 7:27:37 PM
 # encoding utf-8
 Units mm
 $INDEX
+CMT821
+ps-105017-001
 ps-47642-001
 $EndINDEX
+$MODULE ps-105017-001
+Po 0 0 0 15 52E703DD 00000000 ~~
+Li ps-105017-001
+Sc 0
+AR 
+Op 0 0 0
+T0 0 1.6 1.5 1.5 0 0.15 N V 21 N "ps-105017-001"
+T1 0 4.3 1.5 1.5 0 0.15 N V 21 N "VAL**"
+DS -4 0.6 4 0.6 0.1 21
+DS -4.6 0 4.6 0 0.1 21
+DS 4.6 0 4.6 -5.8 0.1 21
+DS 4.6 -5.8 -4.6 -5.8 0.1 21
+DS -4.6 -5.8 -4.6 0 0.1 21
+$PAD
+Sh "4" R 0.4 1.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.65 -4.15
+$EndPAD
+$PAD
+Sh "11" O 1.2 1.9 0 0 0
+Dr 0.6 0 0 O 0.6 1.3
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.5 -1.45
+$EndPAD
+$PAD
+Sh "10" R 1.2 1.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.9 -1.45
+$EndPAD
+$PAD
+Sh "7" R 1.2 1.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.9 -1.45
+$EndPAD
+$PAD
+Sh "6" O 1.2 1.9 0 0 0
+Dr 0.6 0 0 O 0.6 1.3
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.5 -1.45
+$EndPAD
+$PAD
+Sh "8" R 1.5 1.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 -1.45
+$EndPAD
+$PAD
+Sh "9" R 1.5 1.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 -1.45
+$EndPAD
+$PAD
+Sh "1" R 0.4 1.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.3 -4.15
+$EndPAD
+$PAD
+Sh "2" R 0.4 1.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.65 -4.15
+$EndPAD
+$PAD
+Sh "3" R 0.4 1.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -4.15
+$EndPAD
+$PAD
+Sh "5" R 0.4 1.35 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.3 -4.15
+$EndPAD
+$PAD
+Sh "12" C 1.45 1.45 0 0 0
+Dr 0.85 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 -4.15
+$EndPAD
+$PAD
+Sh "13" C 1.45 1.45 0 0 0
+Dr 0.85 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 -4.15
+$EndPAD
+$EndMODULE ps-105017-001
 $MODULE ps-47642-001
 Po 0 0 0 15 5224C029 00000000 ~~
-Li sot-23-3
+Li ps-47642-001
 Sc 0
-AR
+AR 
 Op 0 0 0
 T0 0 -2.54 1.5 1.5 0 0.15 N V 21 N "ps-47642-001"
 T1 0 0 1.5 1.5 0 0.15 N I 21 N "USB CONN"
@@ -24,7 +131,7 @@ Sh "2" R 1.25 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 6.475 -.65
+Po 6.475 -0.65
 $EndPAD
 $PAD
 Sh "3" R 1.25 0.4 0 0 0
@@ -38,7 +145,7 @@ Sh "4" R 1.25 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 6.475 .65
+Po 6.475 0.65
 $EndPAD
 $PAD
 Sh "5" R 1.25 0.4 0 0 0
