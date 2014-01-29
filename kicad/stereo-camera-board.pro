@@ -1,21 +1,7 @@
-update=1/27/2014 8:48:45 PM
-last_client=cvpcb
+update=1/28/2014 4:07:44 PM
+last_client=eeschema
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=C:/Users/Matt/kicad-20130802-r4262/library/converted
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=stereo-camera-board
-LibName2=power
-LibName3=led
-LibName4=custom
-LibName5=inductor-coilcraft
 [pcbnew]
 version=1
 LastNetListRead=
@@ -49,3 +35,18 @@ LibDir=
 [cvpcb]
 version=1
 NetIExt=net
+[eeschema]
+version=1
+LibDir=C:/Users/Matt/kicad-20130802-r4262/library/converted
+NetFmtName=
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=stereo-camera-board
+LibName2=power
+LibName3=led
+LibName4=custom
+LibName5=inductor-coilcraft
+LibName6=usb
