@@ -6,3 +6,5 @@ MPZ1608B471A          $0.10/1     0603
 |    WM17142CT-ND     $1.25/1     molex.mod->ps-47642-001
 |    WM1399CT-ND      $0.87/1     molex.mod->ps-105017-001
 GSB311231HR           $2.70/1     usb.mod->GSB311231HR
+MAX4372FEUK+TCT-ND    $2.41/1     SOT.mod->SOT-223-5
+785-1013-1-ND         $0.56/1     SOT.mod->SOT-23-3
