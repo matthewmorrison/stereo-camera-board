@@ -1,4 +1,4 @@
-update=1/31/2014 4:21:23 PM
+update=2/10/2014 8:17:08 PM
 last_client=eeschema
 [general]
 version=1
@@ -54,3 +54,4 @@ LibName7=transistor
 LibName8=jumper
 LibName9=sn74lvc2t45
 LibName10=transistor-fet
+LibName11=con-usb
