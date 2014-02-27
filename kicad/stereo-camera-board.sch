@@ -10,6 +10,7 @@ LIBS:jumper
 LIBS:sn74lvc2t45
 LIBS:transistor-fet
 LIBS:con-usb
+LIBS:mt9v032
 LIBS:stereo-camera-board-cache
 EELAYER 24 0
 EELAYER END
@@ -367,7 +368,7 @@ F 3 "" H 6950 1050 30  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L IC_MT9V032 S2
+L MT9V032 S2
 U 1 1 520F18BF
 P 4650 3750
 F 0 "S2" H 4050 4300 30  0000 C CNN
@@ -1404,17 +1405,6 @@ F 3 "" H 7600 5900 60  0000 C CNN
 	1    7600 5900
 	-1   0    0    1   
 $EndComp
-$Comp
-L JP2E JP5
-U 1 1 530D753E
-P 8700 1900
-F 0 "JP5" V 8515 1900 50  0000 L BNN
-F 1 "JP2E" V 8890 1900 50  0000 L BNN
-F 2 "jumper-JP2" H 8700 2050 50  0001 C CNN
-F 3 "" H 8700 1900 60  0000 C CNN
-	1    8700 1900
-	1    0    0    -1  
-$EndComp
 NoConn ~ 9100 6450
 NoConn ~ 9900 6050
 $Comp
@@ -1835,8 +1825,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 3150 3250 3250
 Wire Wire Line
-	3250 3250 3850 3250
-Wire Wire Line
 	3350 3250 3350 3150
 Wire Wire Line
 	3450 3250 3450 3150
@@ -2055,14 +2043,9 @@ Wire Wire Line
 Wire Wire Line
 	7450 5300 4400 5300
 Wire Wire Line
-	3800 2400 4400 2400
-Wire Wire Line
-	3900 3600 3700 3600
-Wire Wire Line
 	3700 2600 4300 2600
 Wire Wire Line
 	4300 2600 4300 2400
-Connection ~ 4300 2400
 Wire Wire Line
 	4950 2850 4950 3000
 Wire Wire Line
@@ -2247,7 +2230,6 @@ Wire Wire Line
 	5550 1450 5350 1450
 Wire Wire Line
 	5550 1000 5550 1450
-Connection ~ 6350 1250
 Wire Wire Line
 	6000 1200 6000 1250
 Connection ~ 6000 1250
@@ -2298,8 +2280,6 @@ Wire Wire Line
 	4250 1550 4500 1550
 Wire Wire Line
 	4400 2400 4400 1750
-Wire Wire Line
-	4400 1750 4500 1750
 Wire Wire Line
 	4350 1700 4500 1700
 Wire Wire Line
@@ -2488,5 +2468,35 @@ Wire Wire Line
 Wire Wire Line
 	5450 1650 5350 1650
 Connection ~ 5900 2000
+NoConn ~ 10425 6050
+NoConn ~ 10475 6050
+NoConn ~ 10525 6050
+NoConn ~ 10575 6050
+$Comp
+L JP4E JP5
+U 1 1 530EBAFA
+P 8600 1900
+F 0 "JP5" V 8415 1900 50  0000 L BNN
+F 1 "JP4E" V 8890 1900 50  0000 L BNN
+F 2 "jumper-JP4" H 8600 2050 50  0001 C CNN
+F 3 "" H 8600 1900 60  0000 C CNN
+	1    8600 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2050 8200 3400
+Wire Wire Line
+	8200 2050 8500 2050
+Wire Wire Line
+	8500 2050 8500 2000
+Wire Wire Line
+	4400 1750 4500 1750
+Wire Wire Line
+	3800 2400 4400 2400
+Wire Wire Line
+	3900 3600 3700 3600
+Connection ~ 4300 2400
 NoConn ~ 4500 1650
+Wire Wire Line
+	3250 3250 3850 3250
 $EndSCHEMATC
