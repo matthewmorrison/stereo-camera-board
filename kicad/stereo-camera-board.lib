@@ -110,33 +110,6 @@ X TMS 1 -200 -150 200 R 28 28 1 1 B
 X VCC 6 -200 100 200 R 28 28 1 1 P 
 ENDDRAW
 ENDDEF
-# Device count = 2
-#
-# DEVSET Name: D-ZENER
-# Dev Prefix: D
-# Gate count = 1
-#
-DEF D_D-ZENER D 0 1 N N 1 L N
-# Gate Name: G$1
-# Symbol Name: D-ZENER
-F0 "D" 38 5 50 H V L B
-F1 "D-ZENER" -38 5 50 H V L B
-F2 "dan-diode-SMA" 0 150 50 H I C C
-DRAW
-P 2 1 0 0 -25 -25 25 0 N
-P 2 1 0 0 25 0 -25 25 N
-P 2 1 0 0 25 25 25 0 N
-P 2 1 0 0 -25 25 -25 0 N
-P 2 1 0 0 -25 0 -25 -25 N
-P 2 1 0 0 25 0 25 -25 N
-P 2 1 0 0 -25 0 -50 0 N
-P 2 1 0 0 25 0 50 0 N
-P 2 1 0 0 25 25 14 25 N
-P 2 1 0 0 25 -25 34 -25 N
-X A A -50 0 0 R 28 28 1 1 P 
-X C C 50 0 0 L 28 28 1 1 P 
-ENDDRAW
-ENDDEF
 # Device count = 1
 #
 # DEVSET Name: FRAME_B_L

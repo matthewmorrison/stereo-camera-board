@@ -1,15 +1,54 @@
-PCBNEW-LibModule-V1 9/2/2013 9:46:11 AM
+PCBNEW-LibModule-V1  3/4/2014 7:50:17 PM
 # encoding utf-8
 Units mm
 $INDEX
-sot-23-3
+GSB311231HR
 sot-223-3
+sot-23-3
+sot23-6
 $EndINDEX
+$MODULE sot-223-3
+Po 0 0 0 15 53169B4D 00000000 ~~
+Li sot-223-3
+Sc 0
+AR /520F18C3
+Op 0 0 0
+T0 0 -2.54 1.5 1.5 0 0.15 N V 21 N "IC1"
+T1 0 0 1.5 1.5 0 0.15 N I 21 N "ZLDO1117G33TA"
+$PAD
+Sh "1" R 3.4 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "N-0000028"
+Po 0 -3.1
+$EndPAD
+$PAD
+Sh "2" R 1.2 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "N-0000022"
+Po -2.3 3.1
+$EndPAD
+$PAD
+Sh "3" R 1.2 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "N-0000039"
+Po 0 3.1
+$EndPAD
+$PAD
+Sh "4" R 1.2 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.3 3.1
+$EndPAD
+$EndMODULE sot-223-3
 $MODULE sot-23-3
 Po 0 0 0 15 5224C029 00000000 ~~
 Li sot-23-3
 Sc 0
-AR
+AR 
 Op 0 0 0
 T0 0 -2.54 1.5 1.5 0 0.15 N V 21 N "sot-23-3"
 T1 0 0 1.5 1.5 0 0.15 N I 21 N "SMD"
@@ -35,41 +74,55 @@ Ne 0 ""
 Po 0.96 0.97
 $EndPAD
 $EndMODULE sot-23-3
-$MODULE sot-223-3
-Po 0 0 0 15 5224C029 00000000 ~~
-Li sot-223-3
+$MODULE sot23-6
+Po 0 0 0 15 531003D6 00000000 ~~
+Li sot23-6
 Sc 0
-AR
+AR 
 Op 0 0 0
-T0 0 -2.54 1.5 1.5 0 0.15 N V 21 N "sot-223-3"
-T1 0 0 1.5 1.5 0 0.15 N I 21 N "SMD"
+T0 0 -3 1.5 1.5 0 0.15 N V 21 N "sot23-6"
+T1 0 3 1.5 1.5 0 0.15 N V 21 N "VAL**"
 $PAD
-Sh "1" R 0.129 .059 0 0 0
-Dr 0 0 0
+Sh "5" R 1.33 0.56 0 0 0
+Dr 0 0 0 O 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 -0.124
+Po 1.2 0
 $EndPAD
 $PAD
-Sh "2" R 0.039 .059 0 0 0
-Dr 0 0 0
+Sh "2" R 1.33 0.56 0 0 0
+Dr 0 0 0 O 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.0905 0.124
+Po -1.2 0
 $EndPAD
 $PAD
-Sh "3" R 0.039 .059 0 0 0
-Dr 0 0 0
+Sh "1" R 1.33 0.56 0 0 0
+Dr 0 0 0 O 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 0.124
+Po -1.2 -0.95
 $EndPAD
 $PAD
-Sh "4" R 0.039 .059 0 0 0
-Dr 0 0 0
+Sh "4" R 1.33 0.56 0 0 0
+Dr 0 0 0 O 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.0905 0.124
+Po 1.2 0.95
 $EndPAD
-$EndMODULE sot-223-3
+$PAD
+Sh "6" R 1.33 0.56 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 -0.95
+$EndPAD
+$PAD
+Sh "3" R 1.33 0.56 0 0 0
+Dr 0 0 0 O 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.2 0.95
+$EndPAD
+$EndMODULE sot23-6
 $EndLIBRARY
