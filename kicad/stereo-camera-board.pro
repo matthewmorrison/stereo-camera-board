@@ -1,4 +1,4 @@
-update=3/8/2014 6:24:52 AM
+update=3/8/2014 4:02:29 PM
 last_client=eeschema
 [general]
 version=1
@@ -64,3 +64,4 @@ LibName13=switch-misc
 LibName14=con-hdrs40
 LibName15=d-zener
 LibName16=mpu-9250
+LibName17=atmel
