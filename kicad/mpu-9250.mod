@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  3/8/2014 8:59:41 PM
+PCBNEW-LibModule-V1  3/8/2014 9:59:33 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -10,6 +10,7 @@ Li MPU-9250
 Sc 0
 AR 
 Op 0 0 0
+.LocalClearance 0.03
 T0 0 -2.2 0.5 0.5 0 0.125 N V 21 N "MPU-9250"
 T1 0 -6.4 1.5 1.5 0 0.15 N I 21 N "VAL**"
 DS -0.85 -0.76 0.85 -0.76 0.05 21

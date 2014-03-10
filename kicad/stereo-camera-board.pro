@@ -1,10 +1,7 @@
-update=3/8/2014 8:57:50 PM
+update=3/9/2014 9:09:56 PM
 last_client=pcbnew
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
 [eeschema]
 version=1
 LibDir=C:/Users/Matt/kicad-20130802-r4262/library/converted
@@ -31,6 +28,9 @@ LibName14=con-hdrs40
 LibName15=d-zener
 LibName16=mpu-9250
 LibName17=atmel
+[cvpcb]
+version=1
+NetIExt=net
 [pcbnew]
 version=1
 LastNetListRead=stereo-camera-board.net
@@ -66,3 +66,4 @@ LibName11=C:/Users/Matt/kicad-20130802-r4262/library/converted/smd-special
 LibName12=C:/Users/Matt/kicad-20130802-r4262/library/converted/jumper
 LibName13=C:/Users/Matt/kicad-20130802-r4262/library/converted/transistor
 LibName14=mpu-9250
+LibName15=C:/Users/Matt/kicad-20130802-r4262/library/converted/diode
