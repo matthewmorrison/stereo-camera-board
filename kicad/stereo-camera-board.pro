@@ -1,4 +1,4 @@
-update=3/9/2014 9:09:56 PM
+update=3/13/2014 4:15:15 AM
 last_client=pcbnew
 [general]
 version=1
@@ -67,3 +67,5 @@ LibName12=C:/Users/Matt/kicad-20130802-r4262/library/converted/jumper
 LibName13=C:/Users/Matt/kicad-20130802-r4262/library/converted/transistor
 LibName14=mpu-9250
 LibName15=C:/Users/Matt/kicad-20130802-r4262/library/converted/diode
+LibName16=C:/Users/Matt/kicad-20130802-r4262/library/converted/switch-misc
+LibName17=C:/Users/Matt/kicad-20130802-r4262/library/converted/ref-packages
