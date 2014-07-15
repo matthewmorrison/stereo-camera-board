@@ -1,4 +1,4 @@
-update=3/13/2014 4:15:15 AM
+update=3/14/2014 9:36:41 PM
 last_client=pcbnew
 [general]
 version=1
@@ -34,11 +34,11 @@ NetIExt=net
 [pcbnew]
 version=1
 LastNetListRead=stereo-camera-board.net
-UseCmpFile=1
-PadDrill=0
-PadDrillOvalY=0
-PadSizeH=0.21
-PadSizeV=0.35
+UseCmpFile=0
+PadDrill=0.7
+PadDrillOvalY=0.7
+PadSizeH=0.8999999999999999
+PadSizeV=0.8999999999999999
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
