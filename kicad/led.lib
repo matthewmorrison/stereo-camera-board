@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 8/16/2013 10:59:35 PM
+EESchema-LIBRARY Version 2.3  Date: 7/16/2014 9:19:06 PM
 #encoding utf-8
 #
 # LED_B
@@ -18,8 +18,8 @@ P 2 1 0 0  25 0  -25 0 N
 P 2 1 0 0  25 0  0 -50 N
 P 6 1 1 0  -67 -42  -59 -25  -59 -25  -50 -34  -50 -34  -67 -42 F
 P 6 1 1 0  -64 -64  -57 -46  -57 -46  -46 -57  -46 -57  -64 -64 F
-X A + 0 50 100 D 28 28 1 1 P
-X C - 0 -100 100 U 28 28 1 1 P
+X A 1 0 50 100 D 28 28 1 1 O
+X C 2 0 -100 100 U 28 28 1 1 O
 ENDDRAW
 ENDDEF
 #
@@ -66,3 +66,5 @@ X A + 0 50 100 D 28 28 1 1 P
 X C - 0 -100 100 U 28 28 1 1 P
 ENDDRAW
 ENDDEF
+#
+#End Library
