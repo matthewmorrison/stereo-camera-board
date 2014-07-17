@@ -16,6 +16,7 @@ LIBS:con-hdrs40
 LIBS:d-zener
 LIBS:mpu-9250
 LIBS:atmel
+LIBS:cpol
 LIBS:stereo-camera-board-cache
 EELAYER 24 0
 EELAYER END
