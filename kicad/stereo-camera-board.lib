@@ -293,28 +293,6 @@ X 2 2 0 -100 100 U 28 28 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DEVSET Name: CPOL
-# Dev Prefix: C
-# Gate count = 1
-#
-DEF C_CPOL C 0 1 N N 1 L N
-# Gate Name: G$1
-# Symbol Name: CPOL
-F0 "C" -6 6 50 V V L B
-F1 "CPOL" 9 -70 50 V V L B
-F2 "0402_POL" 0 150 50 H I C C
-DRAW
-P 2 1 0 0 -29 -17 29 -17 N
-P 2 1 0 0 29 -17 29 0 N
-P 2 1 0 0 -29 0 -29 -17 N
-P 2 1 0 0 -29 0 29 0 N
-S -41 -64 41 -41 1 1 0 F
-T 900 -23 32 11 0 1 0 + N 0 L B
-X + + 0 50 100 D 28 28 1 1 P 
-X - - 0 -100 100 U 28 28 1 1 P 
-ENDDRAW
-ENDDEF
-#
 # DEVSET Name: R
 # Dev Prefix: R
 # Gate count = 1
