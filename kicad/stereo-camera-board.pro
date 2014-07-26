@@ -1,4 +1,4 @@
-update=7/16/2014 11:25:06 PM
+update=7/26/2014 8:49:50 AM
 last_client=eeschema
 [general]
 version=1
@@ -45,7 +45,7 @@ LibName16=C:/Users/Matt/kicad-20130802-r4262/library/converted/switch-misc
 LibName17=C:/Users/Matt/kicad-20130802-r4262/library/converted/ref-packages
 [eeschema]
 version=1
-LibDir=C:/Users/Matt/kicad-20130802-r4262/library/converted
+LibDir=
 NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100

@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3  Date: 7/17/2014 5:35:16 PM
+#encoding utf-8
+#
+# C_CPOL
+#
+DEF C_CPOL ?? 0 1 N N 1 L N
+F0 "??" 0 0 60 H V C CNN
+F1 "C_CPOL" 0 100 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+T 900 -23 32 11 0 1 0 +  Normal 0 L B
+P 2 1 0 0  -29 -17  29 -17 N
+P 2 1 0 0  -29 0  -29 -17 N
+P 2 1 0 0  -29 0  29 0 N
+P 2 1 0 0  29 -17  29 0 N
+S -41 -64 41 -41 1 1 0 F
+X 1 1 0 50 100 D 28 28 1 1 P
+X 2 2 0 -100 100 U 28 28 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
