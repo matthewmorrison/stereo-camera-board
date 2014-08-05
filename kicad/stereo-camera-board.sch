@@ -1275,10 +1275,6 @@ F 3 "" H 4050 1550 60  0000 C CNN
 	1    4050 1550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10425 6050
-NoConn ~ 10475 6050
-NoConn ~ 10525 6050
-NoConn ~ 10575 6050
 NoConn ~ 4500 1650
 $Comp
 L R_R R25
@@ -1813,10 +1809,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 1300 6600 2550
 Wire Wire Line
-	10300 6000 10100 6000
-Wire Wire Line
-	10100 6000 10100 6300
-Wire Wire Line
 	8700 6250 9100 6250
 Wire Wire Line
 	9950 6450 9900 6450
@@ -1837,10 +1829,6 @@ Wire Wire Line
 Wire Wire Line
 	8850 5750 8850 4300
 Wire Wire Line
-	10300 5850 10300 6000
-Wire Wire Line
-	10350 5850 10300 5850
-Wire Wire Line
 	10350 6150 10350 5900
 Wire Wire Line
 	10300 6150 10350 6150
@@ -1849,7 +1837,6 @@ Wire Wire Line
 	10300 6150 10300 6400
 Wire Wire Line
 	10250 6300 10300 6300
-Connection ~ 10100 6150
 Connection ~ 2500 550 
 Connection ~ 1700 950 
 Wire Wire Line
@@ -2628,4 +2615,10 @@ Wire Wire Line
 	3500 2400 3450 2400
 Wire Wire Line
 	3450 2400 3450 2450
+Wire Wire Line
+	10100 6050 10100 6300
+Wire Wire Line
+	10100 6050 10425 6050
+Connection ~ 10425 6050
+Connection ~ 10100 6150
 $EndSCHEMATC
