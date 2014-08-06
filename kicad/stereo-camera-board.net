@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dis/git/stereo-camera-board/kicad/stereo-camera-board.sch)
-    (date "Mon 04 Aug 2014 04:50:14 PM PDT")
+    (date "Tue 05 Aug 2014 05:03:06 PM PDT")
     (tool "eeschema (2014-03-19 BZR 4756)-product"))
   (components
     (comp (ref C8)
