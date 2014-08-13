@@ -12,3 +12,5 @@ P2N2222AG	            $0.42/1	  (TO-92-3 throughhole)
 2N2907A		            $1.79/1	  Mouser
 MAX3207E              $1.27/1     SOT.mod->SOT-23-6 
 GLFR1608T100M-LR      $.25/1      0603
+DSL958G-700-F1.7      $49/2       Wide angle lens for machine vision
+CMT821_SU             $6/2        Mount for lens
