@@ -14,3 +14,25 @@ MAX3207E              $1.27/1     SOT.mod->SOT-23-6
 GLFR1608T100M-LR      $.25/1      0603
 DSL958G-700-F1.7      $49/2       Wide angle lens for machine vision
 CMT821_SU             $6/2        Mount for lens
+
+
+part C_C) - 0402
+20	.1uf/100nf
+1	10nf
+3	1uf
+2	4.7nf
+
+part c_CPOL - cpol.lib
+2	22uf
+2	10uf
+
+part R_R) - 0402
+2	1M
+1	100K
+1	22K
+5	10K
+1	2.2K
+10	1K
+1	150R
+3	100R
+1	0R
