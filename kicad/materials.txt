@@ -22,7 +22,7 @@ part C_C) - 0402
 3	1uf
 2	4.7nf
 
-part c_CPOL - cpol.lib
+part c_CPOL - 1206
 2	22uf
 2	10uf
 
