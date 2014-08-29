@@ -1,6 +1,6 @@
 MCP1700T-2502E/TT     $0.44/1     SOT.mod->SOT-23-3
 ZLDO1117G33TA         $0.54/1     SOT.mod->SOT-223-3
-SMAJ5.0A              $0.43/1     DO.mod->DO-214AC
+SMAJ5.0A              $0.43/3     DO.mod->DO-214AC
 SN74LVC1T45DCKR       $0.64/1     SC.mod->SC70-6
 MPZ1608B471A          $0.10/1     0603
 |    WM17142CT-ND     $1.25/1     molex.mod->ps-47642-001
