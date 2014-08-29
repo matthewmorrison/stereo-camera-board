@@ -18,7 +18,7 @@ CMT821_SU             $6/2        Mount for lens
 
 part C_C) - 0402
 20	.1uf/100nf
-1	10nf
+1	10nf/10,000pf
 3	1uf
 2	4.7nf
 
